@@ -15,4 +15,10 @@ Si falla quizá sea por tener el antiVirus activado, desactivarlo e intentar de 
 ```bash 
  php artisan serve
 ```
-6. 
+6. Las carpetas que más vamos a recurrir son: app, database, public, y resources.
+
+## Base de datos 
+Para iniciar la base de datos nos dirigimos al programa XAMPP control panel, y le damos en **start** a Apache y luego MySQL.  
+Corroboramos que funciona accediendo a http://localhost/phpmyadmin/ .
+Una vez dentro creamos una base de datos, en mi caso se llama laravel11.    
+Luego en archivo .env cambiamos (línea 23) DB conection por mysql, y descomentamos hasta la línea 28, cambiando el nombre de la BD por el que le pusimos.
